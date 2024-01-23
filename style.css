@@ -1,0 +1,411 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #fbfbfb;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.navbar .logo {
+  margin-right: 2rem;
+}
+
+.nav-img {
+  width: 200px;
+  height: 80px;
+}
+.nav-home {
+  margin: 40px auto;
+  display: flex;
+  gap: 40px;
+}
+.nav-home a {
+  color: #1e1e1e;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+.sign-up {
+  display: flex;
+  gap: 20px;
+}
+.login-btn {
+  border: none;
+  background-color: #fbfbfb;
+  width: 80px;
+  height: 40px;
+  color: #1e1e1e;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+.signup-btn {
+  width: 150px;
+  height: 40px;
+  background-color: #008d6a;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fbfbfb;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.container-wrapper {
+}
+
+.first-row {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 178px 0;
+  display: flex;
+}
+
+.heading {
+  margin-bottom: 2rem;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1e1e1e;
+  height: 306px;
+  font-family: Montserrat;
+  width: 730px;
+}
+
+.third-division {
+  background-color: #ebebeb;
+  text-align: center;
+  padding: 20px 155px;
+}
+
+.third-division h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #3c3c3c;
+}
+
+.quotes {
+  max-width: 954px;
+  margin: 2rem auto;
+  color: #e38078;
+
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contact {
+  max-width: 1440px;
+  margin: 120px auto 120px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+.text-container h2 {
+  font-weight: 700;
+  color: #3c3c3c;
+  font-size: 45px;
+  width: 600px;
+}
+.text-container h3 {
+  font-weight: 700;
+  color: #3c3c3c;
+  font-size: 22px;
+  width: 600px;
+  margin-top: 10px;
+}
+.text-container p {
+  color: #3c3c3c;
+  font-family: Fira sans;
+  margin-top: 25px;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 23px;
+  width: 600px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: min-content;
+  line-height: 23px;
+}
+.form-container label {
+  color: #3c3c3c;
+  font-size: 18px;
+  font-weight: 500;
+}
+.form-container input {
+  background-color: #ebebee;
+  border: none;
+  width: 450px;
+  height: 40px;
+  padding: 10px;
+}
+.form-container textarea {
+  background-color: #ebebee;
+  border: none;
+  width: 450px;
+  height: 200px;
+  padding: 10px;
+}
+.form-container button {
+  background-color: #e38078;
+  border-radius: 10px;
+  color: #fbfbfb;
+  width: 450px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  margin-top: 20px;
+}
+.form-container p {
+  margin-top: 20px;
+  font-weight: 500;
+  color: #1e1e1e;
+}
+.form-container p a {
+  font-weight: 700;
+  color: #008d6a;
+  font-size: 18px;
+}
+
+.image {
+  width: 529px;
+  height: 539px;
+  top: 178px;
+  left: 832px;
+}
+
+.sub-heading {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e38078;
+  width: 637px;
+  height: 41px;
+  top: 508px;
+  left: 81px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  height: 480px;
+  width: 300px;
+  margin: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #008d6a;
+  color: #ffffff;
+  border-radius: 15px;
+}
+.card h4 {
+  margin: 0 auto 2rem;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card-body {
+  height: 233px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card-body ul {
+  padding-left: 2rem;
+}
+
+.card-body li {
+  margin-bottom: 1rem;
+}
+
+.card-footer {
+  margin: auto 0 1rem;
+}
+
+.card-footer button {
+  width: 100%;
+  height: 64px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background: #fbfbfb;
+  border: none;
+}
+
+.third-division .login {
+  margin: 2rem auto 0;
+}
+
+.third-division .login a {
+}
+
+.footer {
+  background-color: #20414c;
+  height: 609px;
+  padding: 20px 155px;
+}
+
+.footer-container {
+  display: flex;
+  position: relative;
+}
+
+.company,
+.product,
+.investors {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  list-style-type: none;
+  color: #ffffff;
+  padding-top: 64px;
+  padding-right: 50px;
+}
+
+.company ul,
+.product ul,
+.investors ul {
+  list-style: none;
+}
+
+.company li,
+.product li,
+.investors li {
+  margin-bottom: 1.4rem;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.footer .logo-contact-wrapper {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .logo {
+  display: flex;
+  float: left;
+  background-color: #20414c;
+  width: 60px;
+  height: 50px;
+  width: 331px;
+  height: 222px;
+  top: 2580px;
+  left: 1009px;
+}
+
+.address {
+  margin-top: 2rem;
+  line-height: 3rem;
+  color: #ffffff;
+}
+
+.address i {
+  width: 1rem;
+  margin-right: 1rem;
+}
+
+.sacc_green_logo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.page-footer {
+  background-color: #315965;
+  padding: 2rem 155px;
+  margin-left: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  list-style: none;
+}
+
+.social-icons .icon {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.terms-display {
+  list-style: none;
+  margin-left: auto;
+  font-family: Montserrat;
+  size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.terms-display li {
+  display: inline-block;
+  margin-right: 2rem;
+}
